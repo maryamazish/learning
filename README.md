@@ -183,6 +183,7 @@
   12. ***Adaptive systems Category>*** Microkernel
         >The microkernel pattern, or plug-in pattern, is useful when your application has a core set of responsibilities and a collection of interchangeable parts on the side. The microkernel will provide the entry point and the general flow of the application, without really knowing what the different plug-ins are doing.
          ![enter image description here](https://blog.ndepend.com/wp-content/uploads/layered-2.png)
+         [https://dzone.com/articles/software-architecture-the-5-patterns-you-need-to-k](https://dzone.com/articles/software-architecture-the-5-patterns-you-need-to-k)
          
   13. ***Adaptive systems Category>*** Reflection
 
@@ -229,8 +230,14 @@
 
   9. Model-View-ViewModel
  
-  11. Microservice:
-        >Microservices also allows you to optimize resources. With microservices, multiple teams work on independent services, enabling you to deploy more quickly — and pivot more easily when you need to. ... The increased efficiency of microservices not only reduces infrastructure costs, it also minimizes downtime
+  10. CQRS
+
+  11. Event Sourcing
+
+  12. Microservice:
+        >When you write your application as a set of microservices, you’re actually writing multiple applications that will work together. Each microservice has its own distinct responsibility and teams can develop them independently of other microservices. The only dependency between them is the communication. As microservices communicate with each other, you will have to make sure messages sent between them remain backwards-compatible. This requires some coordination, especially when different teams are responsible for different microservices.
+        ![enter image description here](https://blog.ndepend.com/wp-content/uploads/layered-6.png)
+[https://dzone.com/articles/software-architecture-the-5-patterns-you-need-to-k](https://dzone.com/articles/software-architecture-the-5-patterns-you-need-to-k)
 
 ## [^](#welcome) Design
 + **Concept**:
