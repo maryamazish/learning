@@ -1,4 +1,5 @@
 
+
 # Welcome
 
 # *Motahari Nia Learning Github Contents:*
@@ -129,11 +130,93 @@
 
 ## [^](#welcome) Architecture
 + **Concept**:
-    1. Monolithic:
-         >In software engineering, a monolithic application describes a single-tiered software application in which the user interface and data access code are combined into a single program from a single platform. A monolithic application is self-contained, and independent from other computing applications.
-    2. Microservice:
-        >Microservices also allows you to optimize resources. With microservices, multiple teams work on independent services, enabling you to deploy more quickly — and pivot more easily when you need to. ... The increased efficiency of microservices not only reduces infrastructure costs, it also minimizes downtime
+  1. Software Architecture:
+        >a Software Architecture can contain several architectural styles, and each architectural style can make use of several architectural patterns. [https://stackoverflow.com/questions/3958316/whats-the-difference-between-architectural-patterns-and-architectural-styles](https://stackoverflow.com/questions/3958316/whats-the-difference-between-architectural-patterns-and-architectural-styles)
+         
+  2. Software Architectural Style:
+        >An Architectural Style is just a name given to a recurrent architectural design. Contrary to a pattern, it doesn't exist to "solve" a problem. [https://stackoverflow.com/questions/3958316/whats-the-difference-between-architectural-patterns-and-architectural-styles](https://stackoverflow.com/questions/3958316/whats-the-difference-between-architectural-patterns-and-architectural-styles)
+         
+  3. Software Architectural Pattern:
+        >An Architectural Pattern is a way of solving a recurring architectural problem. MVC, for instance, solves the problem of separating the UI from the model. [https://stackoverflow.com/questions/3958316/whats-the-difference-between-architectural-patterns-and-architectural-styles](https://stackoverflow.com/questions/3958316/whats-the-difference-between-architectural-patterns-and-architectural-styles)
+         
+  4. Layer and Tier:
+        >***Layer***: Logical layers are merely a way of organizing your code. Typical layers include Presentation, Business and Data – the same as the traditional 3-tier model. But when we’re talking about layers, we’re only talking about logical organization of code. In no way is it implied that these layers might run on different computers or in different processes on a single computer or even in a single process on a single computer. All we are doing is discussing a way of organizing a code into a set of layers defined by specific function.
 
+        >***Tier***: Physical tiers, are only about where the code runs. Specifically, tiers are places where layers are deployed and where layers run. In other words, tiers are the physical deployment of layers.
+
++ **Software Architectural Styles:**:
+  1. ***Structure Category>*** Component-based
+        >Component-based software engineering (CBSE), also called components-based development (CBD), is a branch of software engineering that emphasizes the separation of concerns with respect to the wide-ranging functionality available throughout a given software system. It is a reuse-based approach to defining, implementing and composing loosely coupled independent components into systems. This practice aims to bring about an equally wide-ranging degree of benefits in both the short-term and the long-term for the software itself and for organizations that sponsor such software.
+
+  2. ***Structure Category>*** Monolithic application
+        >In software engineering, a monolithic application describes a single-tiered software application in which the user interface and data access code are combined into a single program from a single platform. A monolithic application is self-contained, and independent from other computing applications.
+
+  3. ***Structure Category>*** Layered
+        >The layered pattern is probably one of the most well-known software architecture patterns. Many developers use it, without really knowing its name. The idea is to split up your code into “layers”, where each layer has a certain responsibility and provides a service to a higher layer. There isn’t a predefined number of layers, but these are the ones you see most often:
+         - Presentation or UI layer
+         - Application layer
+         - Business or domain layer
+         - Persistence or data access layer
+         - Database layer
+   
+  4. ***Structure Category>*** Pipes and filters
+        >The Pipe and Filter architecture is inspired by the Unix technique of connecting the output of an application to the input of another via pipes on the shell. The pipe and filter architecture consists of one or more data sources. The data source is connected to data filters via pipes.
+
+  5. ***Shared memory Category>*** Database-centric
+
+  6. ***Shared memory Category>*** Blackboard
+
+  7. ***Shared memory Category>*** Rule-based
+
+  8. ***Messaging Category>*** Event-driven
+        >This architecture depends on Event Producers and Event Consumers. The main idea is to decouple your system’s parts and each part will be triggered when an interesting event from another part has got triggered. Is it complicated? Let’s simplify it. Assume you design an online store system and it has two parts. A purchase module and a vendor module. If a customer makes a purchase, the purchase module would generate an event of “orderPending” Since the vendor module is interesting in the “orderPending” event, it will be listening, in case one is triggered. Once the vendor module gets this event, it will execute some tasks or maybe fire another event for order more of the product from a certain vendor.[https://codeburst.io/software-architecture-the-difference-between-architecture-and-design-7936abdd5830](https://codeburst.io/software-architecture-the-difference-between-architecture-and-design-7936abdd5830)
+         
+  9. ***Messaging Category>*** Publish-subscribe
+        >In software architecture, publish–subscribe is a messaging pattern where senders of messages, called publishers, do not program the messages to be sent directly to specific receivers, called subscribers, but instead categorize published messages into classes without knowledge of which subscribers, if any, there may be. Similarly, subscribers express interest in one or more classes and only receive messages that are of interest, without knowledge of which publishers, if any, there are.[https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)
+        
+  10. ***Messaging Category>*** Asynchronous messaging
+
+  11. ***Adaptive systems Category>*** Plug-ins
+        >Provide a way to extend the capabilities of a software system by addition rather than modification. This can range from traditional plug-ins and add-ons to an architecture built almost entirely of plug-ins. [https://wiki.c2.com/?PluginArchitecture](https://wiki.c2.com/?PluginArchitecture)
+  12. ***Adaptive systems Category>*** Microkernel
+        >The microkernel pattern, or plug-in pattern, is useful when your application has a core set of responsibilities and a collection of interchangeable parts on the side. The microkernel will provide the entry point and the general flow of the application, without really knowing what the different plug-ins are doing.
+         ![enter image description here](https://blog.ndepend.com/wp-content/uploads/layered-2.png)
+         
+  13. ***Adaptive systems Category>*** Reflection
+  14. ***Adaptive systems Category>*** Domain specific languages
+  15. ***Distributed systems Category>*** Client-server(2-tier, 3-tier, n-tier exhibit this style)
+  16. ***Distributed systems Category>*** Shared nothing architecture
+  17. ***Distributed systems Category>*** Space-based architecture
+  18. ***Distributed systems Category>*** Object request broker
+  19. ***Distributed systems Category>*** Peer-to-peer
+  20. ***Distributed systems Category>*** Representational state transfer (REST)
+  21. ***Distributed systems Category>*** Service-oriented Architecture (SOA)
+  22. ***Distributed systems Category>*** Cloud computing
+  23. Object-Oriented
+  24. Resource-oriented Architecture (ROA)
+  25. Message Bus
+
++ **Software Architectural Patterns:**:
+  1. Three-tier
+
+  2. Multilayered architecture
+
+  3. Model-view-controller
+
+  4. Domain Driven Design
+
+  5. Microkernel
+
+  6. Blackboard pattern
+
+  7. Sensor-controller-actuator
+
+  8. Presentation–abstraction–control
+
+  9. Model-View-ViewModel
+ 
+  11. Microservice:
+        >Microservices also allows you to optimize resources. With microservices, multiple teams work on independent services, enabling you to deploy more quickly — and pivot more easily when you need to. ... The increased efficiency of microservices not only reduces infrastructure costs, it also minimizes downtime
 
 ## [^](#welcome) Design
 + **Concept**:
