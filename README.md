@@ -231,9 +231,15 @@
   9. Model-View-ViewModel
  
   10. CQRS
+        >CQRS is an acronym for Command and Query Responsibility Segregation. The central concept of this pattern is that an application has read operations and write operations that must be totally separated. This also means that the model used for write operations (commands) will differ from the read models (queries). Furthermore, the data will be stored in different locations. In a relational database, this means there will be tables for the command model and tables for the read model. Some implementations even store the different models in totally different databases, e.g. SQL Server for the command model and MongoDB for the read model.This pattern is often combined with event sourcing.
+        ![enter image description here](https://blog.ndepend.com/wp-content/uploads/layered-3.png)
+        ![enter image description here](https://blog.ndepend.com/wp-content/uploads/Layered-4.png)
+[https://dzone.com/articles/software-architecture-the-5-patterns-you-need-to-k](https://dzone.com/articles/software-architecture-the-5-patterns-you-need-to-k)
 
   11. Event Sourcing
-
+        >CQRS often goes hand in hand with event sourcing. This is a pattern where you don’t store the current state of your model in the database, but rather the events that happened to the model. So when the name of a customer changes, you won’t store the value in a “Name” column. You will store a “NameChanged” event with the new value (and possibly the old one too).A real-life analogy of event sourcing is accounting. When you add an expense, you don’t change the value of the total. In accounting, a new line is added with the operation to be performed. If an error was made, you simply add a new line.        ![enter image description here](https://blog.ndepend.com/wp-content/uploads/layered-5.png)
+        [https://dzone.com/articles/software-architecture-the-5-patterns-you-need-to-k](https://dzone.com/articles/software-architecture-the-5-patterns-you-need-to-k)
+        
   12. Microservice:
         >When you write your application as a set of microservices, you’re actually writing multiple applications that will work together. Each microservice has its own distinct responsibility and teams can develop them independently of other microservices. The only dependency between them is the communication. As microservices communicate with each other, you will have to make sure messages sent between them remain backwards-compatible. This requires some coordination, especially when different teams are responsible for different microservices.
         ![enter image description here](https://blog.ndepend.com/wp-content/uploads/layered-6.png)
