@@ -146,10 +146,10 @@
 
 + **Software Architectural Styles:**:
   1. ***Structure Category>*** Component-based
-        >Component-based software engineering (CBSE), also called components-based development (CBD), is a branch of software engineering that emphasizes the separation of concerns with respect to the wide-ranging functionality available throughout a given software system. It is a reuse-based approach to defining, implementing and composing loosely coupled independent components into systems. This practice aims to bring about an equally wide-ranging degree of benefits in both the short-term and the long-term for the software itself and for organizations that sponsor such software.
+        >Component-based software engineering (CBSE), also called components-based development (CBD), is a branch of software engineering that emphasizes the separation of concerns with respect to the wide-ranging functionality available throughout a given software system. It is a reuse-based approach to defining, implementing and composing loosely coupled independent components into systems. This practice aims to bring about an equally wide-ranging degree of benefits in both the short-term and the long-term for the software itself and for organizations that sponsor such software.[https://en.wikipedia.org/wiki/Component-based_software_engineering](https://en.wikipedia.org/wiki/Component-based_software_engineering)
 
   2. ***Structure Category>*** Monolithic application
-        >In software engineering, a monolithic application describes a single-tiered software application in which the user interface and data access code are combined into a single program from a single platform. A monolithic application is self-contained, and independent from other computing applications.
+        >In software engineering, a monolithic application describes a single-tiered software application in which the user interface and data access code are combined into a single program from a single platform. A monolithic application is self-contained, and independent from other computing applications.[https://en.wikipedia.org/wiki/Monolithic_application](https://en.wikipedia.org/wiki/Monolithic_application)
 
   3. ***Structure Category>*** Layered
         >The layered pattern is probably one of the most well-known software architecture patterns. Many developers use it, without really knowing its name. The idea is to split up your code into “layers”, where each layer has a certain responsibility and provides a service to a higher layer. There isn’t a predefined number of layers, but these are the ones you see most often:
@@ -158,9 +158,10 @@
          - Business or domain layer
          - Persistence or data access layer
          - Database layer
+          [https://dzone.com/articles/software-architecture-the-5-patterns-you-need-to-k](https://dzone.com/articles/software-architecture-the-5-patterns-you-need-to-k)
    
   4. ***Structure Category>*** Pipes and filters
-        >The Pipe and Filter architecture is inspired by the Unix technique of connecting the output of an application to the input of another via pipes on the shell. The pipe and filter architecture consists of one or more data sources. The data source is connected to data filters via pipes.
+        >The Pipe and Filter architecture is inspired by the Unix technique of connecting the output of an application to the input of another via pipes on the shell. The pipe and filter architecture consists of one or more data sources. The data source is connected to data filters via pipes.[https://www.oreilly.com/library/view/software-architecture-with/9781786468529/ch08s04.html](https://www.oreilly.com/library/view/software-architecture-with/9781786468529/ch08s04.html)
 
   5. ***Shared memory Category>*** Database-centric
 
@@ -178,22 +179,35 @@
 
   11. ***Adaptive systems Category>*** Plug-ins
         >Provide a way to extend the capabilities of a software system by addition rather than modification. This can range from traditional plug-ins and add-ons to an architecture built almost entirely of plug-ins. [https://wiki.c2.com/?PluginArchitecture](https://wiki.c2.com/?PluginArchitecture)
+        
   12. ***Adaptive systems Category>*** Microkernel
         >The microkernel pattern, or plug-in pattern, is useful when your application has a core set of responsibilities and a collection of interchangeable parts on the side. The microkernel will provide the entry point and the general flow of the application, without really knowing what the different plug-ins are doing.
          ![enter image description here](https://blog.ndepend.com/wp-content/uploads/layered-2.png)
          
   13. ***Adaptive systems Category>*** Reflection
+
   14. ***Adaptive systems Category>*** Domain specific languages
+
   15. ***Distributed systems Category>*** Client-server(2-tier, 3-tier, n-tier exhibit this style)
+
   16. ***Distributed systems Category>*** Shared nothing architecture
+
   17. ***Distributed systems Category>*** Space-based architecture
+
   18. ***Distributed systems Category>*** Object request broker
+
   19. ***Distributed systems Category>*** Peer-to-peer
+
   20. ***Distributed systems Category>*** Representational state transfer (REST)
+
   21. ***Distributed systems Category>*** Service-oriented Architecture (SOA)
+
   22. ***Distributed systems Category>*** Cloud computing
+
   23. Object-Oriented
+
   24. Resource-oriented Architecture (ROA)
+
   25. Message Bus
 
 + **Software Architectural Patterns:**:
