@@ -173,7 +173,8 @@
   7. ***Shared memory Category>*** Rule-based
         >The most common form of architecture used in expert (In artificial intelligence, an expert system is a computer system that emulates the decision-making ability of a human expert)  and other types of knowledge based systems is the production system or it is called rule based systems. This type of system uses knowledge encoded in the form of production rules i.e. if-then rules. The rule has a conditional part on the left hand side and a conclusion or action part on the right hand side.[https://www.brainkart.com/article/Rule-Based-Architecture-of-an-Expert-System_8931/](https://www.brainkart.com/article/Rule-Based-Architecture-of-an-Expert-System_8931/)
         ![enter image description here](https://www.brainkart.com/media/extra/CiSMkkS.jpg)
-        
+ 
+ 
   8. ***Messaging Category>*** Event-driven
         >This architecture depends on Event Producers and Event Consumers. The main idea is to decouple your system’s parts and each part will be triggered when an interesting event from another part has got triggered. Is it complicated? Let’s simplify it. Assume you design an online store system and it has two parts. A purchase module and a vendor module. If a customer makes a purchase, the purchase module would generate an event of “orderPending” Since the vendor module is interesting in the “orderPending” event, it will be listening, in case one is triggered. Once the vendor module gets this event, it will execute some tasks or maybe fire another event for order more of the product from a certain vendor.[https://codeburst.io/software-architecture-the-difference-between-architecture-and-design-7936abdd5830](https://codeburst.io/software-architecture-the-difference-between-architecture-and-design-7936abdd5830)
          
