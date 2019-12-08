@@ -161,7 +161,9 @@
           [https://dzone.com/articles/software-architecture-the-5-patterns-you-need-to-k](https://dzone.com/articles/software-architecture-the-5-patterns-you-need-to-k)
    
   4. ***Structure Category>*** Pipes and filters
-        >The Pipe and Filter architecture is inspired by the Unix technique of connecting the output of an application to the input of another via pipes on the shell. The pipe and filter architecture consists of one or more data sources. The data source is connected to data filters via pipes.[https://www.oreilly.com/library/view/software-architecture-with/9781786468529/ch08s04.html](https://www.oreilly.com/library/view/software-architecture-with/9781786468529/ch08s04.html)
+        >The Pipe and Filter architecture is inspired by the Unix technique of connecting the output of an application to the input of another via pipes on the shell. The pipe and filter architecture consists of one or more data sources. The data source is connected to data filters via pipes.
+        [https://www.oreilly.com/library/view/software-architecture-with/9781786468529/ch08s04.html](https://www.oreilly.com/library/view/software-architecture-with/9781786468529/ch08s04.html)
+        [http://www.dossier-andreas.net/software_architecture/pipe_and_filter.html](http://www.dossier-andreas.net/software_architecture/pipe_and_filter.html)
 
   5. ***Shared memory Category>*** Database-centric
 
